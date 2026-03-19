@@ -6,6 +6,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Título Principal com destaque */
@@ -107,28 +112,15 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.hero{
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+.hero {
+    flex: 1;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
     text-align: center;
-    padding-top: 50px;
-}
 
-
-body {
-  margin: 0;
-}
-
-.hero {
-  min-height: 100vh; /* ocupa a tela toda */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* centro vertical */
-  align-items: center;     /* centro horizontal */
-  text-align: center;
+    background: transparent;
 }
 
 .hero h1 {
@@ -145,4 +137,35 @@ body {
 }
 
 
+
+
+.hero {
+    background: transparent;
+    flex: 1;
+}
+
+
+
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 0px;
+
+
+    
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
 
